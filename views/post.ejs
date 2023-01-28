@@ -1,0 +1,7 @@
+<%- include('partials/header'); -%>
+<%- include('partials/nav'); -%>
+
+<h1><%=post.title %></h1>
+<p> <%= post.content %></p>
+<a href="/delete/<%= post._id %>">Delete Post </a>
+<%- include('partials/footer'); -%>
